@@ -25,7 +25,11 @@ $.ajax({
 }
 
 function rolar_para(elemento) {
-
+	var content="<h1>None</h1>";
+  if(elemento == "presidencia"){
+	  content=presidencia;
+  }
+	$('#main').html(content);
   //$('html, body').animate({    scrollTop: $(elemento).offset().top    }, 2000);
 }
 
