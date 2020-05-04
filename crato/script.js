@@ -4,7 +4,7 @@ imported.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
 document.head.appendChild(imported); 
 var apresentacao, presidencia, elemento;
 var content="<h1>None</h1>";
-
+alert("script carregado");
 
 
 window.onload = function(){
