@@ -25,6 +25,10 @@ $.ajax({
 });
 }
 
+function op(a){
+	alert(a);	
+}
+
 function rolar_para(elemento) {
 	alert("Você tem " + elemento + " anos.");
   if(elemento == "presidencia"){
