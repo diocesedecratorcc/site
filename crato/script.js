@@ -26,7 +26,7 @@ $.ajax({
 }
 
 function rolar_para(elemento) {
-	
+	alert("Você tem " + elemento + " anos.");
   if(elemento == "presidencia"){
 	  content=presidencia;
 	  alert('S');
