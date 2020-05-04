@@ -27,9 +27,10 @@ $.ajax({
 });
 }
 
-document.getElementById("presidencia").addEventListener("click", function() {
-    alert("PRESIDENCIA");
-}, false);
+function presidencia(){
+	
+	alert("asdf");
+}
 
 /*
 function rolar_para(elemento) {
