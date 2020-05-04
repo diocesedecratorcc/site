@@ -2,7 +2,7 @@
 var imported = document.createElement('script');
 imported.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
 document.head.appendChild(imported); 
-var apresentacao, presidencia;
+var apresentacao, presidencia, elemento;
 
 window.onload = function(){
   $.ajax({
