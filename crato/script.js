@@ -28,6 +28,9 @@ function rolar_para(elemento) {
 	var content="<h1>None</h1>";
   if(elemento == "presidencia"){
 	  content=presidencia;
+	  alert('S');
+  }else{
+	  alert('N');
   }
 	$('#main').html(content);
   //$('html, body').animate({    scrollTop: $(elemento).offset().top    }, 2000);
