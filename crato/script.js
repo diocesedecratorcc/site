@@ -5,6 +5,8 @@ document.head.appendChild(imported);
 var apresentacao, presidencia, elemento;
 var content="<h1>None</h1>";
 
+
+
 window.onload = function(){
   $.ajax({
     url:"https://raw.githubusercontent.com/diocesedecratorcc/site/master/crato/apresentacao.html",
@@ -25,10 +27,11 @@ $.ajax({
 });
 }
 
-function op(a){
-	alert(a);	
-}
+document.getElementById("presidencia").addEventListener("click", function() {
+    alert("PRESIDENCIA");
+}, false);
 
+/*
 function rolar_para(elemento) {
 	alert("Você tem " + elemento + " anos.");
   if(elemento == "presidencia"){
@@ -40,5 +43,6 @@ function rolar_para(elemento) {
 	$('#main').html(content);
   //$('html, body').animate({    scrollTop: $(elemento).offset().top    }, 2000);
 }
+*/
 
   
