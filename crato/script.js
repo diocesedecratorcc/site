@@ -3,6 +3,7 @@ var imported = document.createElement('script');
 imported.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
 document.head.appendChild(imported); 
 var apresentacao, presidencia, elemento;
+var content="<h1>None</h1>";
 
 window.onload = function(){
   $.ajax({
@@ -25,7 +26,7 @@ $.ajax({
 }
 
 function rolar_para(elemento) {
-	var content="<h1>None</h1>";
+	
   if(elemento == "presidencia"){
 	  content=presidencia;
 	  alert('S');
